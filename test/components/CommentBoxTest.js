@@ -16,4 +16,8 @@ describe('CommentBox', () => {
     it('has a button', () => {
         expect(component.find('button')).to.exist;
     });
+
+    it('has the correct class', () => {
+        expect(component).to.have.class('comment-box');
+    });
 });
