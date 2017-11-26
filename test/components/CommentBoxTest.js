@@ -17,10 +17,6 @@ describe('CommentBox', () => {
         expect(component.find('button')).to.exist;
     });
 
-    it('has a label', () => {
-        expect(component.find('label')).to.exist;
-    });
-
     it('has the correct class', () => {
         expect(component).to.have.class('comment-box');
     });
