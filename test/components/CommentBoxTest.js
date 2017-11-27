@@ -20,4 +20,14 @@ describe('CommentBox', () => {
     it('has the correct class', () => {
         expect(component).to.have.class('comment-box');
     });
+
+    describe('entering some text', () => {
+        it('shows text that is entered', () => {
+
+        });
+
+        it('when submitted, clears the input', () => {
+
+        }); 
+    })
 });
